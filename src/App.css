@@ -1,0 +1,62 @@
+/* src/App.css */
+
+/* Сброс базовых стилей */
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Стили для контейнера приложения */
+  .App {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Стили для dropzone */
+  .dropzone {
+    border: 2px dashed #cccccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Стили для кнопок */
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стили для элемента управления глубиной */
+  input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
